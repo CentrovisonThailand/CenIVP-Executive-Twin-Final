@@ -44,8 +44,8 @@ export default function PannellumViewer() {
       
       // เลือกใช้รูปตามขนาดหน้าจอ
       const selectedPanorama = isMobileOrTablet 
-        ? '/image/Executive-Double-Final-4096x2048.jpg' 
-        : '/image/Executive-Double-Final.jpg';          
+        ? '/image/Executive-Twin-Final-4096x2048.jpg' 
+        : '/image/Executive-Twin-Final.jpg';          
 
       viewerRef.current = window.pannellum.viewer('panorama-container', {
         type: 'equirectangular',
